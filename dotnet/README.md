@@ -36,3 +36,8 @@ dotnet add package Microsoft.Azure.Functions.Worker.Extensions.WebPubSub --versi
 
 Example of how to use Web PubSub from a dotnet-isolated function: https://github.com/Azure/azure-webpubsub/blob/main/samples/functions/csharp/notifications-isolated/Functions.cs
 
+## Publishing the Function App
+
+```sh
+func azure functionapp publish <function-app-name>
+```
